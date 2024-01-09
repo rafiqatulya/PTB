@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "438661024843",
+    "project_id": "drplasma2-a5c76",
+    "storage_bucket": "drplasma2-a5c76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438661024843:android:7a80def058ab2adff191ce",
+        "android_client_info": {
+          "package_name": "com.example.drplasma2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8L3izAIOCiUYEtI6R0j1sh-A-Fqv4n80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

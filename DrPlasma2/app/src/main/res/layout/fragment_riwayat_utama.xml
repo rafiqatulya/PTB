@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="RiwayatUtamaFragment">
+
+    <TextView
+        android:id="@+id/textViewRU"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/header_shape"
+        android:gravity="center_horizontal"
+        android:paddingTop="74dp"
+        android:text="Selamat Datang"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:fontFamily="@font/poppins_medium"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_utama1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/textViewRU"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_riwayat_utama"
+        android:drawableLeft="@drawable/riwayat_utama1"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="left"
+        android:padding="20dp"
+        android:paddingLeft="20dp"
+        android:text="      Riwayat Donor"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRU" />
+
+    <Button
+        android:id="@+id/button_utama2"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:background="@drawable/button_riwayat_utama"
+        android:drawableLeft="@drawable/riwayat_utama2"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="left"
+        android:padding="20dp"
+        android:paddingLeft="20dp"
+        android:text="      Riwayat Permintaan Donor"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_utama1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
