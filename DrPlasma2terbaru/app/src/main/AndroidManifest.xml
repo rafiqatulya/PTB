@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/splash1"
+        android:label="DrPlasma2"
+        android:roundIcon="@drawable/splash1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DrPlasma"
+        tools:targetApi="31">
+        <activity
+            android:name=".BatalkanPermintaanDonorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BatalkanPermintaanDonorActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD_uz5CasDEMUZy97PKrSPKpOu16fCvUYA" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FormPermintaanActivity"
+            android:exported="false" /> <!-- <meta-data -->
+        <activity
+            android:name=".PermintaanDonorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BatalkanDonorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FormDaftarDonorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailDonorMasukActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DonorMasukActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DonorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TambahRiwayatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RiwayatPermintaanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RiwayatDonorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RiwayatUtamaActivity"
+            android:exported="false" />
+        <!--        <activity-->
+        <!--            android:name=".home.HomeActivity"-->
+        <!--            android:exported="false" />-->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Register2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen2"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen3"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RiwayatDonorActivity">
+
+    <TextView
+        android:id="@+id/tvRiwayatDonor"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/header_shape"
+        android:gravity="center_horizontal"
+        android:paddingTop="74dp"
+        android:text="Riwayat Donor"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_riwayat"
+        android:layout_below="@+id/tvRiwayatDonor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="120dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        tools:listitem="@layout/item_row_riwayat_donor"/>
+
+    <Button
+        android:id="@+id/btn_tmbhriwayat"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rv_riwayat"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="-60dp"
+        android:background="@drawable/button_all"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Tambah Riwayat"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv_riwayat"
+        app:layout_constraintVertical_bias="0.244" />
+
+    <Button
+        android:id="@+id/btn_donorberlangsung"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rv_riwayat"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="-110dp"
+        android:background="@drawable/button_all"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Donor Berlangsung"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv_riwayat"
+        app:layout_constraintVertical_bias="0.244" />
+
+</RelativeLayout>

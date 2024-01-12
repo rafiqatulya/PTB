@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.DrPlasma" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/bg</item>
+        <item name="colorPrimaryDark">@color/bg</item>
+        <item name="colorAccent">@color/warna_accent</item>
+    </style>
+
+    <color name="warna_primary">#C21010</color>
+    <color name="warna_primary_dark">#C21010</color>
+    <color name="warna_accent">#FF4081</color>
+
+</resources>
